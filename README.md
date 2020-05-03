@@ -18,5 +18,6 @@ npm i
 npm index.js
 ```
 *Open the Web Browser and type  [http://localhost:4000/](http://localhost:4000/) to see the web app in action!
-![Homepage](https://github.com/savi-1311/spotify-search/blob/master/Home.png)
-![SearchResults](https://github.com/savi-1311/spotify-search/blob/master/Search.png)
+
+<img src="https://github.com/savi-1311/spotify-search/blob/master/Home.png" alt="Home Page" width="500px">
+<img src="https://github.com/savi-1311/spotify-search/blob/master/Search.png" alt="Search Results" width="500px">
