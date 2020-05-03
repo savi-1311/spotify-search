@@ -1,0 +1,18 @@
+ <link rel="stylesheet" href="/css/search.css">
+ <div id= "title"> Search Results for "<%= music%>" :</div>
+<div id="outer">
+<%for(var i=0;i< list.length;i++){%>
+<div id="item">
+<p><img src="<%= image[i]%>"</p><br>
+<div id ="details">
+<div id ="details1">
+<div class="heading">Track:</div><div class="list">&nbsp;<%= name[i] %></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="heading">Album:&nbsp;</div><div class="list"><%= album[i] %></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="heading">Artists:</div>&nbsp;<div class="list"><%= artist[i] %></div>
+ </div>
+ <br>
+ <div id = "details2">
+ <a href = "<%= list[i] %>"><button>Play</button></a>
+ </div>
+ </div>
+ </div>
+<%}%>
+</div>
